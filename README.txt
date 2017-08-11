@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/ehermanson/pen/KwKWEv.
+A Pen created at CodePen.io. You can find this one at http://codepen.io/Tushkiz/pen/xqfsy.
 
- A design for a sign-up/login form using tabs and floating form labels.
+ Simple Login Form with Flat UI

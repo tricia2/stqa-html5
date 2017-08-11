@@ -1,14 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
+
 <body>
-	Name:
-	<input type="text" id="txtName" >
-	<button onclick="addName()">Add to Local Storage</button>
-	<table border="1">
+  <div class="form">
+  <form action="/record">
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Sign Up</h1>
+			</div>
+
+			<div class="login-form">
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="user name" id="txtName">
+				<label class="login-field-icon fui-user" for="login-name"></label>
+				</div>
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="user email" id="login-email">
+				<label class="login-field-icon fui-user" for="login-email"></label>
+				</div>
+				<div class="control-group">
+				<input type="text" class="login-field" value="" placeholder="gender" id="login-gender">
+				<label class="login-field-icon fui-user" for="login-gender"></label>
+				</div>
+				<div class="control-group">
+				<input type="password" class="login-field" value="" placeholder="password" id="login-pass">
+				<label class="login-field-icon fui-lock" for="login-pass"></label>
+				</div>
+				<div class="control-group">
+				<input type="password" class="login-field" value="" placeholder="confirm password" id="login-confirm">
+				<label class="login-field-icon fui-lock" for="login-pass"></label>
+				</div>
+
+			<a class="btn btn-primary btn-large btn-block"onclick="addName()"/>Sign Up</a>
+			<br>
+			<button  type ="/record" class="btn btn-primary btn-large btn-block"/>Login</button>
+			<br>
+			</form>
+			
+<table border="1">
 		<thead>
 			<tr>
 				<th>Names</th>
